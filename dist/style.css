@@ -1,0 +1,66 @@
+body {
+    max-width: 1000px;
+    margin: auto;
+  
+}
+
+#navigation {
+    width: 100%;
+    margin: 15px 0;
+    background: #fba300;
+    padding: 15px;
+}
+
+#navigation span {
+    background: #fb0000;
+    padding: 5px 10px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+#navigation span:hover {
+    background: #dac7c7;
+}
+
+#navigation input {
+    width: 50px;
+    height: 20px;
+}
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#gallery .photo{
+    position: relative;
+ border: 1px solid #dac7c7;
+ margin-bottom: 15px;
+ box-shadow: 0px 0px 3px 3px #00000073;
+
+}
+
+
+
+#gallery .photo i, #gallery .photo span{
+    position: absolute;
+    z-index: 5;
+    top: 5px;
+   
+
+}
+#gallery .photo i{
+    left: 5px;
+    background: #fba300;
+    padding: 5px;
+}
+
+#gallery .photo span{
+    background: #fb0000;
+    border-radius: 50%;
+    min-width: 30px;
+    min-height: 30px; 
+    text-align: center;
+    line-height: 30px;
+    right: 5px;
+
+}

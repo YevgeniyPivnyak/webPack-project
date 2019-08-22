@@ -8,3 +8,5 @@ const gallery = new Gallery({
 });
 
 gallery.renderList();
+
+alert('Congradhds');
